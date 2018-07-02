@@ -1,0 +1,16 @@
+package javaOPP;
+
+import java.util.ArrayList;
+
+public class Battery {
+	private String model;
+	private int hoursIdel;
+	private int hoursTalk;
+
+	public Battery(String model, int hoursIdel, int hoursTalk) {
+		this.model = model;
+		this.hoursIdel = hoursIdel;
+		this.hoursTalk = hoursTalk;
+	}
+
+}

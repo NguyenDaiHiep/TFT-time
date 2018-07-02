@@ -1,0 +1,12 @@
+package Bai2;
+
+public class Teachers {
+	private String nameTeacher;
+	private String discipline;
+
+	public Teachers(String nameTeacher, String discipline) {
+		this.nameTeacher = nameTeacher;
+		this.discipline = discipline;
+	}
+
+}

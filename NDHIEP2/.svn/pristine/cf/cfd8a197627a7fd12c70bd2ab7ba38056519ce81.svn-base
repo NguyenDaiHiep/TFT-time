@@ -1,0 +1,10 @@
+package Bai3;
+
+public abstract class Human {
+	private String firstName;
+	private String Lastname;
+	public Human(String firstName, String lastname) {
+		this.firstName = firstName;
+		Lastname = lastname;
+	}
+}

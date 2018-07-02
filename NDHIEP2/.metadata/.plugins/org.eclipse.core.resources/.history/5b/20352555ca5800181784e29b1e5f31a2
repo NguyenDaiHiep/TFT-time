@@ -1,0 +1,45 @@
+package hibernate;
+
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.Transaction;
+
+public class Test {
+	private static SessionFactory factory;
+	public static void main(String[] args) {
+		try {
+            factory = new Configuration().configure().buildSessionFactory();
+        } catch (Throwable ex) {
+            ex.printStackTrace();
+        }
+		Test t = new Test();
+		Integer id1 = t.addEmployee("daihiep", "daihiep@gmail.com");
+		
+		
+
+			
+	}
+	public Integer addEmployee(String nickName, String email) {
+        Session session = factory.openSession();
+        Transaction tx = null;
+        Integer userid = null;
+        try {
+            tx = session.beginTransaction();
+            User user = new User(nickName, email);
+            userid = (Integer) session.save(user);
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx != null)
+                tx.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+        return userid;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Add new Album</title>
+</head>
+<body>
+	<h2>AlbumWebSpring info</h2>
+	<form th:action="@{/add}"
+		th:object="${album}" method="post">
+		<table>
+			<tr>
+				<td>NameAlbum</td>
+				<td><input type="text" th:field="*{nameAlbum}"/></td>
+			</tr>
+			<tr>
+				<td>kind</td>
+				<td><input type="text" th:field="*{kind}"/></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="submit" value="save"/></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

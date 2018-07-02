@@ -1,0 +1,58 @@
+package javaOPP;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+import javaOPP.Battery.BarrteyType;
+
+public class GSM {
+	private String model;
+	private String manufacturer;
+	private int price;
+	private String owner;
+	private Battery battery;
+	private Display display;
+	public static final Object IPhone4s = new GSM("ip4s", "apple", 200, "Hiep",
+			new Battery("A", 10, 10, BarrteyType.LiIon), new Display(30, 100));
+	private ArrayList<Call> callHistory = new ArrayList<>();
+
+	public GSM(String model, String manufacturer, int price, String owner, Battery battery, Display display) {
+		this.model = model;
+		this.manufacturer = manufacturer;
+		this.price = price;
+		this.owner = owner;
+		this.display = display;
+		this.battery = battery;
+		this.callHistory = callHistory;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "GSM [model=" + model + ", manufacturer=" + manufacturer + ", price=" + price + ", owner=" + owner
+				+ ", battery=" + battery + ", display=" + display + ", callHistory=" + callHistory + "]";
+	}
+
+
+	public ArrayList<Call> addCall(Call c1){
+		callHistory.add(c1);
+		return callHistory;
+	}
+	public ArrayList<Call> deleteCall(Call c1){
+		callHistory.remove(c1);
+		return callHistory;
+	}
+	public void deleteCallHistory(ArrayList<Call> callHistory){
+		callHistory.clear();
+	}
+	public int sumPrice(ArrayList<Call> callHistory){
+		int sum = 0;
+		for (int i = 0; i < callHistory.size(); i++) {
+			sum += callHistory.get(i).sumPrice();
+		}
+		return sum;
+		
+	}
+	
+
+}

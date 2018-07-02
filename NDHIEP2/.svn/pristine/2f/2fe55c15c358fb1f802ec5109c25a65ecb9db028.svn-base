@@ -1,0 +1,20 @@
+package Bai3;
+
+import java.util.ArrayList;
+
+public class Students extends Human{
+	private int numberClass;
+	ArrayList<Students> listHS = new ArrayList<>();
+
+	public Students(String firstName, String lastname, int numberClass) {
+		super(firstName, lastname);
+		this.numberClass = numberClass;
+	}
+
+	public int getNumberClass() {
+		return numberClass;
+	}
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package Bai2;
+
+public class Disciplines {
+	private String nameDis;
+	private int numbersOfLecture;
+	private int numberOfEx;
+
+	public Disciplines(String nameDis, int numbersOfLecture, int numberOfEx) {
+		this.nameDis = nameDis;
+		this.numbersOfLecture = numbersOfLecture;
+		this.numberOfEx = numberOfEx;
+	}
+
+	public String getNameDis() {
+		return nameDis;
+	}
+
+	public int getNumbersOfLecture() {
+		return numbersOfLecture;
+	}
+
+	public int getNumberOfEx() {
+		return numberOfEx;
+	}
+	
+
+}

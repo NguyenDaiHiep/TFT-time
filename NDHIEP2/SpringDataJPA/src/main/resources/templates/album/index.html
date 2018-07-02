@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>MusicApplication</title>
+</head>
+<body>
+	<h2>AlbumWebSpring list</h2>
+	<a href="/add" >Add new Album</a>
+	<!--  <form th:action="@{/searchkind}"
+		th:object="${album}" method="post">
+		<input type="submit" value="search"/>
+		<input type="search" placeholder="Search kind" th:field="*{kind}"/>
+	</form> -->
+	<table border="1" style="margin-top: 20px">
+		<tr>
+			<th>id</th>
+			<th>nameAlbum</th>
+			<th>kind</th>
+			<th>option</th>
+		</tr>
+		<tr th:each="album,iterStat: ${albums}">
+			<td th:text="${album.id}"></td>
+			<td th:text="${album.nameAlbum}"></td>
+			<td th:text="${album.kind}"></td>
+			<td>
+				<a th:href="${'/edit/' + album.id}">Edit</a> 
+				<a th:href="${'/delete/' + album.id}"
+				onclick="return confirm('are you sure?')">Delete</a>
+			</td>
+
+		</tr>
+	</table>
+
+</body>
+</html>

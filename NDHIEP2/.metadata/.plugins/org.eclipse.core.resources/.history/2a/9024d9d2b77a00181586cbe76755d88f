@@ -1,0 +1,5 @@
+package ndhiep.config;
+
+public class MyWebInitializer {
+
+}

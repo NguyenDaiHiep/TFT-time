@@ -1,0 +1,15 @@
+package Practice;
+
+public class Chia5 {
+//	public static void chiahet5(int n){
+//		int count=0;
+//		for (int i = 0; i < n; i++) {
+//			if()
+//			
+//		}
+//	}
+	public static void main(String[] args) {
+		System.out.println(10/2);
+	}
+
+}

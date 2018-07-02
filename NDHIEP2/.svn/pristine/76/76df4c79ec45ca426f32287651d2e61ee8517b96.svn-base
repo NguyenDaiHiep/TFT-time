@@ -1,0 +1,6 @@
+package Bai3;
+
+public abstract class Human {
+	private String firstName;
+	private String Lastname;
+}

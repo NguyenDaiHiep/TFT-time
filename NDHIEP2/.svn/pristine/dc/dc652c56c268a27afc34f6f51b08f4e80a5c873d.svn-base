@@ -1,0 +1,8 @@
+package Bai2;
+
+public class Teachers {
+	private String nameTeacher;
+	private String discipline;
+	
+
+}

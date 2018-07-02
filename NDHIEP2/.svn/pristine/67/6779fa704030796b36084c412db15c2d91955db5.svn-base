@@ -1,0 +1,9 @@
+package Bai2;
+
+public class Disciplines {
+	private String nameDis;
+	private int numbersOfLecture;
+	private int numberOfEx;
+	
+
+}

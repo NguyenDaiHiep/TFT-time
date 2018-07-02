@@ -1,0 +1,12 @@
+package Bai3;
+
+public class Test {
+	Students st1 = new Students("Nguyen", "Hiep", 12);
+	Students st1 = new Students("Le", "A", 6);
+	Students st1 = new Students("Tran", "B", 9);
+	Students st1 = new Students("Hoang", "C", 1);
+	Students st1 = new Students("trinh", "D", 5);
+	
+	
+
+}

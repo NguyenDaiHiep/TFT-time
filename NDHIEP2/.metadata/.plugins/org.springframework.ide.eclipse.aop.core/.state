@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo.SpringForm"/>
+<aop-project name="SpringSecurity"/>
+<aop-project name="SpringMVCStart"/>
+<aop-project name="demoSpringTiles"/>
+<aop-project name="SpringWithMaven"/>
+<aop-project name="demoSpringWebservice"/>
+<aop-project name="ndhiep.demoIOC"/>
+<aop-project name="demoSpringMVCHello"/>
+<aop-project name="musicApllication"/>
+<aop-project name="SpringBootSecurityHibernate"/>
+<aop-project name="Spring"/>
+<aop-project name="SpringDataJPA"/>
+</aop-reference-model>

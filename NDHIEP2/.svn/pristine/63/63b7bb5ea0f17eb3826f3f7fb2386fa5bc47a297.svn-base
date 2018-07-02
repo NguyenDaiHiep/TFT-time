@@ -1,0 +1,12 @@
+package Bai3;
+
+public class Students extends Human{
+	private int numberClass;
+
+	public Students(String firstName, String lastname, int numberClass) {
+		super(firstName, lastname);
+		this.numberClass = numberClass;
+	}
+	
+
+}

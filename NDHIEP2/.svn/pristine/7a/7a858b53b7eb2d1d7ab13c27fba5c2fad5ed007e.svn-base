@@ -1,0 +1,10 @@
+package Bai4;
+
+public abstract class Cat extends Animal{
+
+	public Cat(String name, int age, String sex) {
+		super(name, age, sex);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,25 @@
+package javaOPP;
+
+import java.util.ArrayList;
+
+public class GSMCallHistoryTest {
+	public static void main(String[] args) {
+		GSM g1 = new GSM(model, manufacturer, price, owner, battery, display)
+		Call c1 = new Call("5pm", new Date(27, 4, 2018), "012456789", 60);
+		Call c2 = new Call("8am", new Date(27, 4, 2018), "0961360593", 120);
+		Call c3 = new Call("11am", new Date(27, 4, 2018), "0125698210", 150);
+		System.out.println(c3.sumPrice());
+		g1.add(c1);
+		callHistory.add(c2);
+		callHistory.add(c3);
+		callHistory.remove(c3);
+		System.out.println("callHistory1: " +callHistory);
+		callHistory2.add(c1);
+		callHistory2.clear();
+		System.out.println("..." + callHistory2);
+		
+		
+		
+	}
+
+}

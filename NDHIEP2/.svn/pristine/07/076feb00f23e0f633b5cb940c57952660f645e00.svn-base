@@ -1,0 +1,21 @@
+package javaOPP;
+
+
+
+public class Battery {
+	private String model;
+	private int hoursIdel;
+	private int hoursTalk;
+	private BarrteyType barrteyType;
+	public enum BarrteyType{
+		LiIon, NiMH, NiCd
+	}
+
+
+	public Battery(String model, int hoursIdel, int hoursTalk) {
+		this.model = model;
+		this.hoursIdel = hoursIdel;
+		this.hoursTalk = hoursTalk;
+	}
+
+}

@@ -1,0 +1,5 @@
+package ndhiep.controller;
+
+public class HelloController {
+
+}

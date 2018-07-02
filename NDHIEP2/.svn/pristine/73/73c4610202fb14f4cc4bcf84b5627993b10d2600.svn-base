@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javaOPP.GSM.BarrteyType"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="javaOPP.Battery"/>
+<fullyQualifiedTypeName name="javaOPP.Battery.BarrteyType"/>
+<fullyQualifiedTypeName name="javaOPP.GSMTest"/>
+<fullyQualifiedTypeName name="javaOPP.Display"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="javaOPP.Date"/>
+<fullyQualifiedTypeName name="javaOPP.GSMCallHistoryTest"/>
+<fullyQualifiedTypeName name="javaOPP.Call"/>
+<fullyQualifiedTypeName name="javaOPP.GSM"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Bai1.Call"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="Bai3.Workers"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="Bai3.Students"/>
+<fullyQualifiedTypeName name="Bai3.Human"/>
+<fullyQualifiedTypeName name="Bai4.ISound"/>
+<fullyQualifiedTypeName name="Bai4.Tomcat"/>
+<fullyQualifiedTypeName name="Bai4.Cat"/>
+<fullyQualifiedTypeName name="Bai4.Frog"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="Demo.Car"/>
+<fullyQualifiedTypeName name="Demo.HonDa"/>
+<fullyQualifiedTypeName name="Demo.Ferar"/>
+<fullyQualifiedTypeName name="Demo.LamBo"/>
+<fullyQualifiedTypeName name="Demo.Factory"/>
+<fullyQualifiedTypeName name="Demo.User"/>
+<fullyQualifiedTypeName name="Bai4.Animal"/>
+<fullyQualifiedTypeName name="Bai4.Dog"/>
+<fullyQualifiedTypeName name="Bai4.Kitten"/>
+<fullyQualifiedTypeName name="Bai4.Sex"/>
+<fullyQualifiedTypeName name="Bai2.School"/>
+<fullyQualifiedTypeName name="Bai2.Class"/>
+<fullyQualifiedTypeName name="Bai2.Teachers"/>
+<fullyQualifiedTypeName name="Bai2.Students"/>
+<fullyQualifiedTypeName name="Bai2.Disciplines"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

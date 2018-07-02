@@ -1,0 +1,15 @@
+package Bai3;
+
+import java.util.ArrayList;
+
+public class Test {
+	ArrayList<Students> students  = new ArrayList<>();
+	Students st1 = new Students("Nguyen", "Hiep", 12);
+	Students st2 = new Students("Le", "A", 6);
+	Students st3 = new Students("Tran", "B", 9);
+	Students st4 = new Students("Hoang", "C", 1);
+	Students st5 = new Students("trinh", "D", 5);
+	
+	
+
+}

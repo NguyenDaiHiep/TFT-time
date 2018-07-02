@@ -1,0 +1,10 @@
+package Bai4;
+
+public class TestAnimal {
+	public static void main(String[] args) {
+		Kitten k1 = new Kitten("mun", 2);
+		Tomcat t1 = new Tomcat("boss", 3);
+		System.out.println(k1);
+	}
+
+}

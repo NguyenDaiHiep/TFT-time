@@ -1,0 +1,10 @@
+package Bai16;
+
+import java.util.ArrayList;
+
+public class Student {
+	private String name;
+	private String mssv;
+	private ArrayList<Subject> subject = new ArrayList<>();
+
+}

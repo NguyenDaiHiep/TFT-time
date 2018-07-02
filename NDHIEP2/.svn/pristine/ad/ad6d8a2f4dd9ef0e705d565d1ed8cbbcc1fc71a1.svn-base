@@ -1,0 +1,17 @@
+package Bai4;
+
+public class TestAnimal {
+	public static void main(String[] args) {
+		Dog d1 = new Dog("lu", 3,"male");
+		Dog d2 = new Dog("heo", 5,"male");
+		Dog d3 = new Dog("pull", 2,"female");
+		Frog f1 = new Frog("ech", 1, "male");
+		Frog f2 = new Frog("op", 2, "male");
+		Frog f3 = new Frog("ec", 3, "female");
+		Kitten k1 = new Kitten("mun", 2);
+		Tomcat t1 = new Tomcat("boss", 3);
+//		System.out.println(k1);
+//		k1.display();
+	}
+
+}

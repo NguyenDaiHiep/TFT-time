@@ -1,0 +1,33 @@
+package Bai3;
+
+import java.util.ArrayList;
+
+public abstract class Human{
+	private String firstName;
+	private String Lastname;
+	ArrayList<Students> listHS = new ArrayList<>();
+	ArrayList<Workers> listCN = new ArrayList<>();
+
+	public Human(String firstName, String lastname) {
+		this.firstName = firstName;
+		Lastname = lastname;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastname() {
+		return Lastname;
+	}
+
+	public ArrayList<Students> getListHS() {
+		return listHS;
+	}
+
+	public ArrayList<Workers> getListCN() {
+		return listCN;
+	}
+	
+	
+}

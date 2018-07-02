@@ -1,0 +1,32 @@
+package Bai3;
+
+import java.util.ArrayList;
+
+public class Students extends Human implements Comparable<Students>{
+	private int numberClass;
+	ArrayList<Students> listHS = new ArrayList<>();
+
+	public Students(String firstName, String lastname, int numberClass) {
+		super(firstName, lastname);
+		this.numberClass = numberClass;
+	}
+
+	public int getNumberClass() {
+		return numberClass;
+	}
+	
+
+	public ArrayList<Students> getListHS() {
+		return listHS;
+	}
+public int compareTo(Students student){
+	if(numberClass > student.numberClass)
+		return 0;
+	else if(numberClass<student.numberClass)
+		return 1;
+	else return -1;
+		
+	}
+	
+
+}

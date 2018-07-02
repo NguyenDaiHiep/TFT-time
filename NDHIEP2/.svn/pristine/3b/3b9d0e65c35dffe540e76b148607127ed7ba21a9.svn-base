@@ -1,0 +1,16 @@
+package Bai2;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		Students HS = new Students();
+		Disciplines mh1 = new Disciplines("toan", 100, 100);
+		Disciplines mh2 = new Disciplines("van", 100, 20);
+		Disciplines mh3 = new Disciplines("van", 100, 200);
+		HS.addMh(mh1);
+		HS.addMh(mh2);
+		System.out.println(HS.sumNumberOfEx());
+	}
+
+}

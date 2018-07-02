@@ -1,0 +1,29 @@
+package Bai2;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Disciplines> listMH = new ArrayList<>();
+		Teachers t1 = new Teachers("A");
+		Teachers t2 = new Teachers("b");
+		Teachers t3 = new Teachers("C");
+		Teachers t4 = new Teachers("D");
+		
+		Disciplines d1 = new Disciplines("Toan", 100, 100, t1);
+		Disciplines d2 = new Disciplines("Van", 100, 20, t2);
+		Disciplines d3 = new Disciplines("Anh", 100, 200, t3);
+		Disciplines d4 = new Disciplines("Ly", 100, 100, t4);
+		listMH.add(d1);
+		listMH.add(d2);
+		listMH.add(d3);
+		listMH.add(d4);
+		
+		Students st1 = new Students("Hiep", "12a1", listMH);
+		System.out.println(st1);
+		
+		
+		
+	}
+
+}

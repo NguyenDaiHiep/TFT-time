@@ -1,0 +1,25 @@
+package Bai16;
+
+public class Subject {
+	private String nameSubject;
+	private int score;
+	public Subject(String nameSubject, int score) {
+		this.nameSubject = nameSubject;
+		this.score = score;
+	}
+	public String getNameSubject() {
+		return nameSubject;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setNameSubject(String nameSubject) {
+		this.nameSubject = nameSubject;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
+	
+
+}

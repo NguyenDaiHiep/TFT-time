@@ -1,0 +1,16 @@
+package javaOPP;
+
+public class Call {
+	private int hours;
+	private Date date;
+	private String phoneNumber;
+	private int duration;
+	public Call(int hours, Date date, String phoneNumber, int duration) {
+		this.hours = hours;
+		this.date = date;
+		this.phoneNumber = phoneNumber;
+		this.duration = duration;
+	}
+	
+
+}

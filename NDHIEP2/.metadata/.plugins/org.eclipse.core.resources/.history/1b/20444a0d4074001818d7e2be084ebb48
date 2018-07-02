@@ -1,0 +1,25 @@
+package demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TimSoGanNhat {
+	public static int timso(int a, int[]array){
+		int result  =0;
+		int temp = Math.abs(array[0]-a);
+		for (int i = 0; i < array.length; i++) {
+			if(Math.abs(array[i+1]-a)<temp){
+				temp = Math.abs(array[i+1]-a);
+		}
+			
+		}
+		return temp;
+		
+	}
+	public static void main(String[] args) {
+		int a = 5;
+		int[] b = {1,3,6,7,8};
+		System.out.println(timso(a, b));
+	}
+
+}

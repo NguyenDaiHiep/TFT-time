@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: demoSpringWebservice Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ndhiep
+Implementation-Vendor-Id: ndhiep
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/demoSpringWebservice
+Created-By: Maven Integration for Eclipse
+

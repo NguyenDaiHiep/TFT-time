@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Album</title>
+</head>
+<body>
+	<h2>Update Info Albums</h2>
+	<form th:action="@{/edit}"
+		th:object="${album}" method="post">
+		<table>
+			<tr>
+				<td>NameAlbum</td>
+				<td><input type="text" th:field="*{nameAlbum}"/></td>
+			</tr>
+			<tr>
+				<td>kind</td>
+				<td><input type="text" th:field="*{kind}"/></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="submit" value="save"/>
+					<input type="hidden" th:field="*{id}"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+
+</body>
+</html>

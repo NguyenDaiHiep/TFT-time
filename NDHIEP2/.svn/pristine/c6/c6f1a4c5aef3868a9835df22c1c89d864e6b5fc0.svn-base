@@ -1,0 +1,13 @@
+package Bai3;
+
+public class Workers extends Human {
+	private double weekSalary;
+	private double WorkHourPerDay;
+
+	public Workers(String firstName, String lastname, double weekSalary, double workHourPerDay) {
+		super(firstName, lastname);
+		this.weekSalary = weekSalary;
+		WorkHourPerDay = workHourPerDay;
+	}
+
+}

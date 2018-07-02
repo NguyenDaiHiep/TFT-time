@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="country" class="ndhiep.demoIOC.entities.Country">
+		<property name="xa" value="linh trung"></property>
+		<property name="huyen" value="thu duc"></property>
+		<property name="tinh" value="Binh Phuoc"></property>
+	</bean>
+
+	<bean id="country1" class="ndhiep.demoIOC.entities.Country">
+		<property name="xa" value="tan thanh"></property>
+		<property name="huyen" value="phuoc long"></property>
+		<property name="tinh" value="Binh Phuoc"></property>
+	</bean>
+
+	<bean id="subject" class="ndhiep.demoIOC.entities.Subject">
+		<property name="nameSubject" value="toan"></property>
+		<property name="score" value="9.0"></property>
+	</bean>
+
+	<bean id="subject1" class="ndhiep.demoIOC.entities.Subject">
+		<property name="nameSubject" value="van"></property>
+		<property name="score" value="6.0"></property>
+	</bean>
+
+	<bean id="subject2" class="ndhiep.demoIOC.entities.Subject">
+		<property name="nameSubject" value="anh"></property>
+		<property name="score" value="8.0"></property>
+	</bean>
+
+	<bean id="student" class="ndhiep.demoIOC.entities.Student">
+		<property name="name" value="Hiep"></property>
+		<property name="age" value="22"></property>
+		<property name="country" ref="country"></property>
+		<property name="subjects">
+			<list>
+				<ref bean="subject" />
+				<ref bean="subject1" />
+				<ref bean="subject2" />
+			</list>
+		</property>
+	</bean>
+	<bean id="student2" class="ndhiep.demoIOC.entities.Student">
+		<property name="name" value="Hiep"></property>
+		<property name="age" value="22"></property>
+		<property name="country" ref="country1"></property>
+		<property name="subjects">
+			<list>
+				<ref bean="subject" />
+				<ref bean="subject1" />
+			</list>
+		</property>
+	</bean>
+</beans>

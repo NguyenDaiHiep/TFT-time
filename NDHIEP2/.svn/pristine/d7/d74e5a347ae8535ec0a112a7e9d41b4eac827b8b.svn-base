@@ -1,0 +1,25 @@
+package javaOPP;
+
+public class Call {
+	private String hours;
+	private Date date;
+	private String phoneNumber;
+	private int duration;
+	public Call(String hours, Date date, String phoneNumber, int duration) {
+		this.hours = hours;
+		this.date = date;
+		this.phoneNumber = phoneNumber;
+		this.duration = duration;
+	}
+	@Override
+	public String toString() {
+		return "Call [hours=" + hours + ", date=" + date + ", phoneNumber=" + phoneNumber + ", duration=" + duration
+				+ "]";
+	}
+	public double sumPrice(){
+		return 3000/60 * duration;
+	}
+	
+	
+
+}

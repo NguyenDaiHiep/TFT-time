@@ -1,0 +1,26 @@
+package Bai3;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+public class Test {
+	public static void main(String[] args) {
+
+		ArrayList<Students> students = new ArrayList<>();
+		Students st1 = new Students("Nguyen", "Hiep", 12);
+		Students st2 = new Students("Le", "A", 6);
+		Students st3 = new Students("Tran", "B", 9);
+		Students st4 = new Students("Hoang", "C", 1);
+		Students st5 = new Students("trinh", "D", 5);
+		students.add(st1);
+		students.add(st2);
+		students.add(st3);
+		students.add(st4);
+		students.add(st5);
+		Collections.sort(students);
+		System.out.println();
+
+	}
+
+}

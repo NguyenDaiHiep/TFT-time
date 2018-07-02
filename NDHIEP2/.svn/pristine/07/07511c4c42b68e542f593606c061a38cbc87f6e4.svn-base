@@ -1,0 +1,17 @@
+package Bai4;
+
+public class Kitten extends Cat{
+	public static final String sex = "FEMALE";
+
+	public Kitten(String name, int age, String sex) {
+		super(name, age, sex);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void display() {
+		System.out.println("meo meo");
+		
+	}
+
+}
